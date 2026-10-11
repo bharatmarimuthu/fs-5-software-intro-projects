@@ -5,8 +5,8 @@ from pid_template import calculate_desired_acceleration
 from pid_template import acceleration_to_throttle_percentage
 
 K_P = 1.0
-K_I = 0
-K_D = 0
+K_I = 0.1
+K_D = 0.1
  
 STEPS = 550
  
